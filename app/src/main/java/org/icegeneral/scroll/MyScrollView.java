@@ -3,7 +3,6 @@ package org.icegeneral.scroll;
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
-import android.view.ViewConfiguration;
 import android.widget.ScrollView;
 
 /**
@@ -12,11 +11,8 @@ import android.widget.ScrollView;
 
 public class MyScrollView extends ScrollView {
 
-    private int scaledTouchSlop;
-
     public MyScrollView(Context context, AttributeSet attrs) {
         super(context, attrs);
-        scaledTouchSlop = ViewConfiguration.get(context).getScaledTouchSlop();
     }
 
     @Override
