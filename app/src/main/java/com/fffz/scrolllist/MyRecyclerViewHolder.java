@@ -1,4 +1,4 @@
-package org.icegeneral.scroll;
+package com.fffz.scrolllist;
 
 import android.support.v7.widget.RecyclerView;
 import android.widget.TextView;

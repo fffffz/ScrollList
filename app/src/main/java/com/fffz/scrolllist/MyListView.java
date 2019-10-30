@@ -1,4 +1,4 @@
-package org.icegeneral.scroll;
+package com.fffz.scrolllist;
 
 import android.annotation.TargetApi;
 import android.content.Context;
